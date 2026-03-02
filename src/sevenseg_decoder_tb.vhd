@@ -130,6 +130,5 @@ begin
         report "Error: F incorrect" severity failure;
 
     report "All test cases passed." severity note;
-    wait;
     end process;
 end Behavioral;
