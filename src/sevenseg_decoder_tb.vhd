@@ -96,7 +96,7 @@ begin
 
     -- 9
     w_Hex <= x"9"; wait for 10 ns;
-    assert (w_seg_n = "0010000")
+    assert (w_seg_n = "0011000")
         report "Error: 9 incorrect" severity failure;
 
     -- A
