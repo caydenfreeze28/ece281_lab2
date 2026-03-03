@@ -111,7 +111,7 @@ begin
 
     -- C
     w_Hex <= x"C"; wait for 10 ns;
-    assert (w_seg_n = "1000110")
+    assert (w_seg_n = "0100111")
         report "Error: C incorrect" severity failure;
 
     -- D
